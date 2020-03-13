@@ -1,0 +1,33 @@
+Package: CauseOfDeathImputation
+Type: Package
+Title: Cause of death imputation package
+Version: 0.0.2
+Date: 2020-03-10
+Author: Chungsoo Kim [aut]
+Maintainer: Chungsoo Kim <ted9219@ajou.ac.kr>
+Description: Cause of death imputation package for database having no cause of death data
+License: Apache License 2.0
+Encoding: UTF-8
+Depends:
+  R (>= 3.3.0), 
+  DatabaseConnector (>= 1.11.4)
+Imports:
+  FeatureExtraction (>= 2.0.0),
+  SqlRender,
+  Cyclops (>= 1.2.2),
+  PatientLevelPrediction (>= 3.0.0),
+  ggplot2,
+  gridExtra,
+  ff,
+  ffbase (>= 0.12.1),
+  ParallelLogger,
+  OhdsiSharing,
+  dplyr,
+  randomForest,
+  caret,
+  pROC,
+  ROCR
+Suggests:
+  testthat
+NeedsCompilation: no
+RoxygenNote: 7.0.2
