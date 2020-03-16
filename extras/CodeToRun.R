@@ -50,4 +50,8 @@ execute(connectionDetails,
         minCellCount = 1,
         sampleSize = NULL)
 
+#=======================
+
+# Please send me (ted9219@ajou.ac.kr) the result file. 
+# ("~/outputFolder/CauseOfDeathImputation/CauseOfDeathResult.xlsx")
 
